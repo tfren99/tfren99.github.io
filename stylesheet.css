@@ -47,7 +47,6 @@ html, body {
 }
 
 #header {
-	height: 150px;
 	width: 100vw;
 	position: fixed;
 	top: 0;
@@ -56,7 +55,7 @@ html, body {
 }
 
 .header {
-	height: 53px;
+	height: 50px;
 	width: auto;
 	margin: 0px 20px;
 	padding-top: 25px;
@@ -134,28 +133,23 @@ a, a:visited, a:active, a:hover {
 	
 }
 
+h1 {
+	width: 60vw;
+	margin: 200px 0 100px 20vw;
+	font-size: 4em;
+}
+
+.main_text {
+	margin-left: 20vw;
+}
+
 /* HOME */
-
-
-/* RESUME */
-
-.resume {
-	width: 1000px;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-.resumetop {
-	margin-top: 100px;
-}
 
 
 
 /* UNDER CONSTRUCTION */
 
-p {
+#under {
 	width: 400px;
 	height: auto;
 	margin: 350px calc(50vw - 200px);
@@ -176,21 +170,31 @@ p {
 
 .project {
 	width: 60vw;
-	height: 250px;
+	height: 400px;
 	margin: 100px 20vw;
-	border: 1px solid #000000;
 }
 
 .project a {
 	margin: auto;
 }
 
+.project .details {
+	width: 30vw;
+	display: inline-block;
+}
 
+.project img {
+	width: 20vw;
+	padding-left: 8vw;
+	padding-bottom: 50px;
+	height: 300px;
+	display: inline-block;
+}
 
 /* CONTACT */
 
 .formbox {
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-left: calc(50vw - 250px);
 	width: 500px;
 }
