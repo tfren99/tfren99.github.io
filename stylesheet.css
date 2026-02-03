@@ -156,25 +156,6 @@ h1 {
 
 
 
-/* UNDER CONSTRUCTION */
-
-#under {
-	width: 400px;
-	height: auto;
-	margin: 350px calc(50vw - 200px);
-	color: var(--header-color);
-	font-size: 1em;
-	text-align: center;
-}
-
-#big {
-	font-size: 2em;
-}
-
-#email:hover {
-	color: var(--header-hover-color);
-}
-
 /* PROJECTS */
 
 .project {
