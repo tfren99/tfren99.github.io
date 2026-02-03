@@ -160,25 +160,24 @@ h1 {
 
 .project {
 	width: 60vw;
-	height: 400px;
-	margin: 100px 20vw;
+	margin: 2em 20vw;
+	transition: background-color 0.35s;
+	padding-left: 2em;
+	border-radius: 2em;
 }
 
-.project a {
-	margin: auto;
-}
-
-.project .details {
-	width: 30vw;
+.details {
+	margin: 3em;
 	display: inline-block;
+	text-align: justify;
 }
 
-.project img {
-	width: 20vw;
-	padding-left: 8vw;
-	padding-bottom: 50px;
-	height: 300px;
-	display: inline-block;
+.project:hover {
+	background-color: #ffe8cc;
+}
+
+.project:focus {
+	height: 750px;
 }
 
 /* CONTACT */
