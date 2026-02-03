@@ -88,15 +88,15 @@ html, body {
 	height: 3px;
 	width: 0%;
 	margin: 0;
-	background-color: var(--header-color);
+	background-color: var(--header-hover-color);
 	transition: width 0.35s,  background-color 0.35s;
 	border-radius: 2px;
 }
 
-.header:hover {
+/*.header:hover {
 	color: var(--header-hover-color);
 	transition: color 0.5s;
-}
+}*/
 
 .header:hover .line {
 	width: 100%;
@@ -201,13 +201,13 @@ h1 {
 	height: 30px;
 	transition: border 0.15s linear, background 0.15s linear;
 	outline: none;
-	background-color: #fafafa;
+	background-color: #ffffff;
 	font-family: Poppins;
 }
 
 .formbox input[type=text]:focus, .formbox textarea:focus {
 	border-color: var(--header-hover-color);
-	background-color: #eee;
+	background-color: #ffffff;
 	outline: none;
 }
 
@@ -221,7 +221,7 @@ h1 {
 	height: 175px;
 	transition: border 0.15s linear, background 0.15s linear;
 	outline: none;
-	background-color: #fafafa;
+	background-color: #ffffff;
 	font-family: Poppins;
 	resize: none;
 }
@@ -237,12 +237,12 @@ h1 {
 	height: 30px;
 	transition: border 0.15s linear, background 0.15s linear;
 	outline: none;
-	background-color: #fafafa;
+	background-color: #ffffff;
 	font-family: Poppins;
 }
 
 .formbox input[type=submit]:hover {
 	border-color: var(--header-hover-color);
-	background-color: #eee;
+	background-color: #ffffff;
 	cursor: pointer;
 }
