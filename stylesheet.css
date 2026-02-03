@@ -135,13 +135,21 @@ a, a:visited, a:active, a:hover {
 
 h1 {
 	width: 60vw;
-	margin: 200px 0 100px 20vw;
+	margin: 200px 0 20px 20vw;
 	font-size: 4em;
 }
 
 .main_text {
 	margin-left: 20vw;
 	margin-right: 20vw;
+}
+
+.underline {
+	width: 6em;
+	height: 0.5em;
+	background-color: var(--header-hover-color);
+	margin-left: 20vw;
+	margin-bottom: 100px;
 }
 
 /* HOME */
