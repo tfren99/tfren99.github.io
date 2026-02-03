@@ -141,10 +141,7 @@ h1 {
 
 .main_text {
 	margin-left: 20vw;
-}
-
-p {
-	width: 60vw;
+	margin-right: 20vw;
 }
 
 /* HOME */
