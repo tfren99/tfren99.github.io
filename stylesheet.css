@@ -89,7 +89,7 @@ html, body {
 	width: 0%;
 	margin: 0;
 	background-color: var(--header-hover-color);
-	transition: width 0.35s,  background-color 0.35s;
+	transition: width 0.35s, background-color 0.35s;
 	border-radius: 2px;
 }
 
@@ -129,10 +129,6 @@ a, a:visited, a:active, a:hover {
 	background-color: aqua;
 }
 
-.link {
-	
-}
-
 h1 {
 	width: 60vw;
 	margin: 200px 0 20px 20vw;
@@ -158,26 +154,21 @@ h1 {
 
 /* PROJECTS */
 
+h2 {
+	transition: color 0.35s;
+}
+
 .project {
 	width: 60vw;
-	margin: 2em 20vw;
-	transition: background-color 0.35s;
-	padding-left: 2em;
-	border-radius: 2em;
+	margin: 4em 20vw;
 }
 
 .details {
-	margin: 3em;
-	display: inline-block;
 	text-align: justify;
 }
 
-.project:hover {
-	background-color: #ffe8cc;
-}
-
-.project:focus {
-	height: 750px;
+.project:hover h2 {
+	color: var(--header-hover-color);
 }
 
 /* CONTACT */
