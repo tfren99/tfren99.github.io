@@ -161,11 +161,12 @@ h2 {
 .project {
 	width: 60vw;
 	margin: 4em 20vw;
+	overflow: auto;
+	display: grid;
 }
 
 .details {
 	text-align: justify;
-	display: inline-block;
 }
 
 .project:hover h2 {
@@ -173,8 +174,9 @@ h2 {
 }
 
 .project img {
-	height: 100%;
+	height: inherit;
 	display: inline-block;
+	float: right;
 }
 
 /* CONTACT */
