@@ -165,10 +165,16 @@ h2 {
 
 .details {
 	text-align: justify;
+	display: inline-block;
 }
 
 .project:hover h2 {
 	color: var(--header-hover-color);
+}
+
+.project img {
+	height: 100%;
+	display: inline-block;
 }
 
 /* CONTACT */
