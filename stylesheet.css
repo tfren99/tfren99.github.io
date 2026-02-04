@@ -15,8 +15,6 @@ for high bar, line-height: 20px; padding-top: 22px;
 	--header-bg: /*#eceef1*/ white;
 	--header-color: black;
 	--body-bg: white;
-	--resume-nav-bg: #4e5a65;
-	--resume-bg: #657382;
 	--header-hover-color: #ff8c00;
 }
 
@@ -138,6 +136,7 @@ h1 {
 .main_text {
 	margin-left: 20vw;
 	margin-right: 20vw;
+	text-align: justify;
 }
 
 .underline {
@@ -146,6 +145,12 @@ h1 {
 	background-color: var(--header-hover-color);
 	margin-left: 20vw;
 	margin-bottom: 100px;
+}
+
+a.intext {
+	text-decoration: underline;
+	text-decoration-color: var(--header-hover-color);
+	text-decoration-thickness: 0.1em;
 }
 
 /* HOME */
