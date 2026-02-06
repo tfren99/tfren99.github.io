@@ -163,6 +163,10 @@ a.intext:hover {
 	color: var(--header-hover-color);
 }
 
+.end {
+	margin-bottom: 6em;
+}
+
 /* HOME */
 
 
