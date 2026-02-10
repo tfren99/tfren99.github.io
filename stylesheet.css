@@ -12,9 +12,11 @@ for high bar, line-height: 20px; padding-top: 22px;
 */
 
 :root {
-	--header-bg: /*#eceef1*/ white;
-	--header-color: black;
-	--body-bg: white;
+	color-scheme: light dark;
+	--body-bg: light-dark(white,#202224);
+	--header-bg: var(--body-bg);
+	--body-color: light-dark(black, white);
+	--header-color: var(--body-color);
 	--header-hover-color: #ff8c00;
 }
 
@@ -41,6 +43,7 @@ html, body {
 	padding: 0;
 	font-family: Poppins;
 	background-color: var(--body-bg);
+	color: var(--body-color);
 	overflow-x: visible;
 }
 
@@ -234,19 +237,19 @@ img.main_text {
 	padding: 2px 10px;
 	border: none;
 	border: 0px;
-	border: 3px solid black;
+	border: 3px solid var(--body-color);
 	border-radius: 3px;
 	margin: 10px 0px;
 	height: 30px;
 	transition: border 0.15s linear, background 0.15s linear;
 	outline: none;
-	background-color: #ffffff;
+	background-color: var(--body-bg);
 	font-family: Poppins;
 }
 
 .formbox input[type=text]:focus, .formbox textarea:focus {
 	border-color: var(--header-hover-color);
-	background-color: #ffffff;
+	background-color: var(--body-bg);
 	outline: none;
 }
 
@@ -254,13 +257,13 @@ img.main_text {
 	width: 480px;
 	padding: 10px;
 	border: none;
-	border: 3px solid black;
+	border: 3px solid var(--body-color);
 	border-radius: 3px;
 	margin: 10px 0px;
 	height: 175px;
 	transition: border 0.15s linear, background 0.15s linear;
 	outline: none;
-	background-color: #ffffff;
+	background-color: var(--body-bg);
 	font-family: Poppins;
 	resize: none;
 }
@@ -270,18 +273,17 @@ img.main_text {
 	padding: 2px 10px;
 	border: none;
 	border: 0px;
-	border: 3px solid black;
+	border: 3px solid var(--body-color);
 	border-radius: 3px;
 	margin: 10px 0px 10px 377px;
 	height: 30px;
-	transition: border 0.15s linear, background 0.15s linear;
+	transition: border 0.15s linear;
 	outline: none;
-	background-color: #ffffff;
+	background-color: var(--body-bg);
 	font-family: Poppins;
 }
 
 .formbox input[type=submit]:hover {
 	border-color: var(--header-hover-color);
-	background-color: #ffffff;
 	cursor: pointer;
 }
