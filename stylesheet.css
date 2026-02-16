@@ -220,6 +220,8 @@ img.main_text {
 	font-style: italic;
 	margin: 0;
 	margin-bottom: 2em;
+	width: 40vw;
+	margin-left: 30vw;
 }
 
 
@@ -286,4 +288,22 @@ img.main_text {
 .formbox input[type=submit]:hover {
 	border-color: var(--header-hover-color);
 	cursor: pointer;
+}
+
+/* TEST */
+
+.book-box h2 {
+	margin-top: 0px;
+}
+
+.book-box {
+	overflow: hidden;
+	margin: 1em 0;
+	transition: max-height 1s;
+	max-height: 2em;
+}
+
+.book-box:focus {
+	height: auto;
+	max-height: 20vh;
 }
