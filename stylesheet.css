@@ -95,6 +95,23 @@ html, body {
 	float: right;
 }
 
+.specialbtn {
+	background-color: var(--header-hover-color);
+	float: right;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 5px 15px 5px 15px;
+	height: 35px;
+	align-items: center;
+	display: flex;
+	transition: background-color 0.35s;
+}
+
+a:hover .specialbtn {
+	background-color: transparent;
+	transition: background-color 0.35s;
+}
+
 /*.header:hover {
 	color: var(--header-hover-color);
 	transition: color 0.5s;
