@@ -100,11 +100,12 @@ html, body {
 	float: right;
 	border-radius: 10px;
 	margin: 15px;
-	padding: 5px 15px 5px 15px;
+	padding: 2px 12px 2px 12px;
 	height: 35px;
 	align-items: center;
 	display: flex;
 	transition: background-color 0.35s;
+	border: #ff8c00 3px solid;
 }
 
 a:hover .specialbtn {
